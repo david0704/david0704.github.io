@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    text-align: center;
+    background: url(nature.jpg);
+}
+#big_wrapper{
+    width: 90%;
+    height: 800px;
+    background-color: skyblue;
+    border: 1px thin black;
+    margin: 20px auto;
+    border-color: rgb(60, 54, 54);
+    -webkit-border-radius: 25px;
+}
+
+h1 {
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Fenix';
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    padding-bottom: 8px;
+    margin: 10px;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
